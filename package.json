@@ -10,7 +10,7 @@
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
 },
-"homepage": "https://TheA-Way.github.io/houston-community-events",
+
   "dependencies": {
     "react": "^19.2.6",
     "react-dom": "^19.2.6"

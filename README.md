@@ -32,9 +32,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/jY1tuhN' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with ScreenToGif
 
 ## Notes
 
@@ -42,7 +41,7 @@ Getting the CSS Grid fully responsive without extra media queries was the main c
 
 ## License
 
-    Copyright 2025 [Your Name]
+    Copyright 2026 Oghenetejiri Ewherido
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
