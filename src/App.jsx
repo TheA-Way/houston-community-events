@@ -10,7 +10,7 @@ const events = [
     location: "NRG Stadium, Houston",
     description: "One of the world's largest livestock exhibitions and rodeos featuring live concerts, carnival rides, and Texas BBQ.",
     link: "https://www.rodeohouston.com",
-    image: "/images/rodeo.jpg"
+    image: import.meta.env.BASE_URL + "/images/rodeo.jpg"
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const events = [
     location: "1601 NASA Pkwy, Houston",
     description: "Explore NASA's real mission control, touch a moon rock, and see astronaut suits from historic space missions.",
     link: "https://spacecenter.org",
-    image: "/images/nasa.jpg"
+    image: import.meta.env.BASE_URL + import.meta.env.BASE_URL + "/images/nasa.jpg"
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const events = [
     location: "Downtown Houston",
     description: "The world's largest art car parade featuring over 250 wildly decorated vehicles rolling through downtown streets.",
     link: "https://www.thehoustonartcarparade.com/",
-    image: "/images/parade.png"
+    image: import.meta.env.BASE_URL + "/images/parade.png"
   },
   {
     id: 4,
@@ -40,7 +40,7 @@ const events = [
     location: "Urban Harvest, East End",
     description: "Shop fresh local produce, handmade goods, and hot food from over 100 local vendors every weekend.",
     link: "https://thehoustonfarmersmarket.com/",
-    image: "/images/market.jpg"
+    image: import.meta.env.BASE_URL + "/images/market.jpg"
   },
   {
     id: 5,
@@ -50,7 +50,7 @@ const events = [
     location: "5555 Hermann Park Dr",
     description: "Dinosaur skeletons, a butterfly center, ancient Egypt exhibit, and a full planetarium all under one roof.",
     link: "https://www.hmns.org",
-    image: "/images/museum.jpg"
+    image: import.meta.env.BASE_URL + "/images/museum.jpg"
   },
   {
     id: 6,
@@ -60,7 +60,7 @@ const events = [
     location: "The Woodlands Town Center",
     description: "Over 200 juried artists display fine art and crafts along the scenic waterway just north of Houston.",
     link: "https://www.visitthewoodlands.com/events/art-events/waterway-arts-festival/",
-    image: "/images/waterway.jpg"
+    image: import.meta.env.BASE_URL + "/images/waterway.jpg"
   },
   {
     id: 7,
@@ -70,7 +70,7 @@ const events = [
     location: "6200 Hermann Park Dr",
     description: "Over two million twinkling lights transform the Houston Zoo into a magical holiday wonderland after dark.",
     link: "https://tickets.houstonzoo.org/webstore/shop/viewitems.aspx?cg=zoolights&c=zoolightsdisc",
-    image: "/images/zoo.jpg"
+    image: import.meta.env.BASE_URL + "/images/zoo.jpg"
   },
   {
     id: 8,
@@ -80,7 +80,7 @@ const events = [
     location: "501 Crawford St, Houston",
     description: "Go behind the scenes at the Houston Astros' home stadium — see the dugout, press box, and warning track.",
     link: "https://www.mlb.com/astros/ballpark/tours",
-    image: "/images/minute.jpg"
+    image: import.meta.env.BASE_URL + "/images/minute.jpg"
   },
   {
     id: 9,
@@ -90,7 +90,7 @@ const events = [
     location: "Buffalo Bayou Park, Houston",
     description: "160 acres of trails, art installations, and kayak rentals along the bayou in the heart of the city.",
     link: "https://buffalobayou.org",
-    image: "/images/bayou.jpg"
+    image: import.meta.env.BASE_URL + "/images/bayou.jpg"
   },
   {
     id: 10,
@@ -100,7 +100,7 @@ const events = [
     location: "Annunciation Greek Orthodox Cathedral",
     description: "Authentic Greek food, live dancing, cooking demos, and pastries at one of Houston's most beloved cultural festivals.",
     link: "https://www.houstongreekfest.com",
-    image: "/images/greek.png"
+    image: import.meta.env.BASE_URL + "/images/greek.png"
   }
 ]
 
