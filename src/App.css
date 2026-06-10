@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --navy:   #0d1b2a;
+  --red:    #c1121f;
+  --gold:   #e9c46a;
+  --cream:  #fdf8f0;
+  --white:  #ffffff;
+  --gray:   #6b7280;
+  --light:  #f3f4f6;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--cream);
+  color: var(--navy);
+}
+
+.header {
+  background: var(--navy);
+  color: var(--white);
+  padding: 3rem 1.5rem 2.5rem;
+  text-align: center;
+  border-bottom: 5px solid var(--red);
+  position: relative;
+  overflow: hidden;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 30px,
+    rgba(255,255,255,0.02) 30px,
+    rgba(255,255,255,0.02) 31px
+  );
+  pointer-events: none;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  position: relative;
+}
+
+.header-star {
+  font-size: 2rem;
+  color: var(--gold);
+  opacity: 0.8;
+}
+
+.header-eyebrow {
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.header-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 900;
+  line-height: 1.1;
+  color: var(--white);
+}
+
+.header-subtitle {
+  margin-top: 0.75rem;
+  color: rgba(255,255,255,0.6);
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.75rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background: var(--navy);
+  color: rgba(255,255,255,0.4);
+  font-size: 0.85rem;
+  border-top: 3px solid var(--red);
+}
+
+@media (max-width: 600px) {
+  .header-star { display: none; }
+  .header-content { flex-direction: column; gap: 0.5rem; }
+  .grid { grid-template-columns: 1fr; }
+}
